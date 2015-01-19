@@ -12,7 +12,7 @@ def add_category(request):
     # Get the context from the request.
     context = RequestContext(request)
 
-    # A HTTP POST?
+    # A HTTP POST
     if request.method == 'POST':
         form = CategoryForm(request.POST)
 
