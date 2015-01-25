@@ -12,7 +12,7 @@ def add_category(request):
     # Get the context from the request.
     context = RequestContext(request)
 
-    # A HTTP POST
+    # A HTTP POSTf
     if request.method == 'POST':
         form = CategoryForm(request.POST)
 
@@ -132,3 +132,10 @@ def category(request, category_name_url):
 
     # Go render the response and return it to the client.
     return render_to_response('rango/category.html', context_dict, context)
+
+# This one converts the URL category name to a simple category name
+# Note that in its simplest implementation, this simply removes the underscores (_)
+# from the category name
+decode_url(category_name_url)
+    result = category_name_url.replace("_", " ")
+    return result
