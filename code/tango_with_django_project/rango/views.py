@@ -136,6 +136,6 @@ def category(request, category_name_url):
 # This one converts the URL category name to a simple category name
 # Note that in its simplest implementation, this simply removes the underscores (_)
 # from the category name
-decode_url(category_name_url)
+def decode_url(category_name_url):
     result = category_name_url.replace("_", " ")
     return result
