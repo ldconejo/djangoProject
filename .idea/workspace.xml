@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82703782-968c-4008-81b5-c214939deb44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/rango/forms.py" afterPath="$PROJECT_DIR$/code/tango_with_django_project/rango/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/index.html" afterPath="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/rango/urls.py" afterPath="$PROJECT_DIR$/code/tango_with_django_project/rango/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/rango/views.py" afterPath="$PROJECT_DIR$/code/tango_with_django_project/rango/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/rango/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2566" max-vertical-offset="3135">
-              <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.39271256" vertical-offset="2071" max-vertical-offset="3150">
+              <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -77,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70212764" vertical-offset="0" max-vertical-offset="495">
+            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="495">
               <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding />
             </state>
@@ -157,10 +153,10 @@
         <option value="$PROJECT_DIR$/code/tango_with_django_project/rango/models.py" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/rango/admin.py" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/rango/forms.py" />
-        <option value="$PROJECT_DIR$/code/tango_with_django_project/rango/views.py" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/register.html" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/rango/urls.py" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/index.html" />
+        <option value="$PROJECT_DIR$/code/tango_with_django_project/rango/views.py" />
       </list>
     </option>
   </component>
@@ -503,7 +499,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422746885499</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Initial user authentication setup.">
+      <created>1423439050431</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1423439050431</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -983,16 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/rango/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2566" max-vertical-offset="3135">
-          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.333334" vertical-offset="25" max-vertical-offset="555">
@@ -1023,9 +1015,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70212764" vertical-offset="0" max-vertical-offset="495">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="495">
           <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/rango/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39271256" vertical-offset="2071" max-vertical-offset="3150">
+          <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
