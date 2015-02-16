@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82703782-968c-4008-81b5-c214939deb44" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/index.html" afterPath="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/tango_with_django_project/settings.py" afterPath="$PROJECT_DIR$/code/tango_with_django_project/tango_with_django_project/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/rango/urls.py" afterPath="$PROJECT_DIR$/code/tango_with_django_project/rango/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/rango/views.py" afterPath="$PROJECT_DIR$/code/tango_with_django_project/rango/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="djangoProject.iws" />
@@ -89,8 +86,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13829787" vertical-offset="145" max-vertical-offset="645">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.7446808" vertical-offset="70" max-vertical-offset="570">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -534,7 +531,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423445866434</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update login/logout/register functionality">
+      <created>1424067945057</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1424067945057</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -587,7 +590,8 @@
     <MESSAGE value="Fixed uninitialized variable." />
     <MESSAGE value="Added login capabilities" />
     <MESSAGE value="Added breaks in index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added breaks in index.html" />
+    <MESSAGE value="Update login/logout/register functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update login/logout/register functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1056,8 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13829787" vertical-offset="145" max-vertical-offset="645">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.7446808" vertical-offset="70" max-vertical-offset="570">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
