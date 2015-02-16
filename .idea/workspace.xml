@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.095744684" vertical-offset="0" max-vertical-offset="525">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -539,7 +539,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424073093870</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Restored title feature to base.html">
+      <created>1424073152226</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1424073152226</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,7 +604,8 @@
     <MESSAGE value="Fixed typo in category.html" />
     <MESSAGE value="Fixed typo in base.html" />
     <MESSAGE value="Experiment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Experiment" />
+    <MESSAGE value="Restored title feature to base.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restored title feature to base.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1068,7 +1075,7 @@
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.095744684" vertical-offset="0" max-vertical-offset="525">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding />
         </state>
       </provider>
