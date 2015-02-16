@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82703782-968c-4008-81b5-c214939deb44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/category.html" afterPath="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/category.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/base.html" afterPath="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="djangoProject.iws" />
@@ -39,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06382979" vertical-offset="0" max-vertical-offset="470">
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="435">
               <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding />
             </state>
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="540">
-              <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.20212767" vertical-offset="40" max-vertical-offset="510">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -153,8 +153,8 @@
         <option value="$PROJECT_DIR$/code/tango_with_django_project/rango/views.py" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/rango/urls.py" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/index.html" />
-        <option value="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/base.html" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/category.html" />
+        <option value="$PROJECT_DIR$/code/tango_with_django_project/templates/rango/base.html" />
       </list>
     </option>
   </component>
@@ -545,7 +545,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424070724325</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fixed typo in category.html">
+      <created>1424070846185</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1424070846185</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -601,7 +607,8 @@
     <MESSAGE value="Update login/logout/register functionality" />
     <MESSAGE value="Removed login and register options for logged users." />
     <MESSAGE value="Added base template and modified category.html to use it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added base template and modified category.html to use it." />
+    <MESSAGE value="Fixed typo in category.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo in category.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1060,18 +1067,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/base.html">
+    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="540">
-          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="435">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/category.html">
+    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/rango/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06382979" vertical-offset="0" max-vertical-offset="470">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.20212767" vertical-offset="40" max-vertical-offset="510">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding />
         </state>
       </provider>
