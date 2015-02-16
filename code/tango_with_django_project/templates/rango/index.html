@@ -7,9 +7,11 @@
     <body>
 
         {% if user.is_authenticated %}
-        <h1>Rango says... hello {{ user.username }}!</h1>
+        <a href="/rango/restricted/">Restricted Page</a><br />
+        <a href="/rango/logout/">Logout</a><br />
         {% else %}
-        <h1>Rango says... hello World!</h1>
+        <a href="/rango/register/">Register Here</a><br />
+        <a href="/rango/login/">Login</a><br />
         {% endif %}
 
         {% if categories %}

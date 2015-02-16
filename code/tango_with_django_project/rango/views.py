@@ -13,6 +13,12 @@ from rango.forms import PageForm
 from django.contrib.auth import authenticate, login
 from django.http import HttpResponseRedirect, HttpResponse
 
+# Add support for login_required decorator
+from django.contrib.auth.decorators import login_required
+
+# Add support for logout
+from django.contrib.auth import logout
+
 def add_category(request):
     # Get the context from the request.
     context = RequestContext(request)
@@ -245,4 +251,18 @@ def user_login(request):
         # No context variables to pass to the template system, hence the
         # blank dictionary object...
         return render_to_response('rango/login.html', {}, context)
+
+@login_required
+def restricted(request):
+    return HttpResponse("Since you're logged in, you can see this text!")
+
+# Use the login_required() decorator to ensure only those logged in can access the view.
+@login_required
+def user_logout(request):
+    # Since we know the user is logged in, we can just log them out.
+    logout(request)
+
+    # Take the user back to the homepage.
+    return HttpResponseRedirect('/rango/')
+
 
