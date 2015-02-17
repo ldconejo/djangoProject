@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Rango</title>
-    </head>
+{% extends 'rango/base.html'%}
 
-    <body>
+{% block title %}Rango{% endblock %}
 
+{% block body_block %}
         {% if user.is_authenticated %}
         <a href="/rango/restricted/">Restricted Page</a><br />
         <a href="/rango/logout/">Logout</a><br />
@@ -28,5 +25,4 @@
         <p><a href="/rango/add_category/">Add a New Category</a></p>
 
         <p><a href="/rango/about/">About</a></p>
-    </body>
-</html>
+{% endblock %}
