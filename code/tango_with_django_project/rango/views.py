@@ -19,6 +19,9 @@ from django.contrib.auth.decorators import login_required
 # Add support for logout
 from django.contrib.auth import logout
 
+# Add support for date time methods
+from datetime import datetime
+
 def add_category(request):
     # Get the context from the request.
     context = RequestContext(request)
@@ -101,8 +104,32 @@ def index(request):
     for category in category_list:
         category.url = category.name.replace(' ', '_')
 
-    # Render the response and send it back!
-    return render_to_response('rango/index.html', context_dict, context)
+    # Obtain our Response object early so we can add cookie information
+    response = render_to_response('rango/index.html', context_dict, context)
+
+    # Get the number of visits to the site
+    # We use the COOKIES.get() function to obtain the visits cookie.
+    # If the cookie exists, the value returned is casted to an integer.
+    # If the cookie doesn't exist, we default to zero and cast that.
+    visits = int(request.COOKIES.get('visits', '0'))
+
+    # Does the cookie last_visit exist?
+    if 'last_visit' in request.COOKIES:
+        # Yes it does! Get the cookie's value.
+        last_visit = request.COOKIES['last_visit']
+        # Cast the value to a Python date/time object.
+        last_visit_time = datetime.strptime(last_visit[:-7], "%Y-%m-%d %H:%M:%S")
+
+        # If it's been more than a day since the last visit...
+        if (datetime.now() - last_visit_time).days > 0:
+            # ...reassign the value of the cookie to +1 of what it was before...
+            response.set_cookie('last_visit', datetime.now())
+    else:
+        # Cookie last_visit doesn't exist, so create it to the current date / time.
+        response.set_cookie('last_visit', datetime.now())
+
+    # Return response back to the user, updating any cookies that need change
+    return response
 
 def about(request):
     return HttpResponse("Hello world! <a href='/rango/about'>About</a>")
