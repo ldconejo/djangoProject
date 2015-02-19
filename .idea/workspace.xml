@@ -30,8 +30,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/rango/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8549223" vertical-offset="0" max-vertical-offset="4515">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.69948184" vertical-offset="1620" max-vertical-offset="4545">
+              <caret line="126" column="55" selection-start-line="126" selection-start-column="55" selection-end-line="126" selection-end-column="55" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -531,7 +531,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424158367044</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added initial support for cookies.">
+      <created>1424378406453</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1424378406453</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -593,7 +599,8 @@
     <MESSAGE value="Restored title feature to base.html" />
     <MESSAGE value="Converted index.html to using base template." />
     <MESSAGE value="Converted add_category.html to using base template." />
-    <option name="LAST_COMMIT_MESSAGE" value="Converted add_category.html to using base template." />
+    <MESSAGE value="Added initial support for cookies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added initial support for cookies." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1060,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/rango/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8549223" vertical-offset="0" max-vertical-offset="4515">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.69948184" vertical-offset="1620" max-vertical-offset="4545">
+          <caret line="126" column="55" selection-start-line="126" selection-start-column="55" selection-end-line="126" selection-end-column="55" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>

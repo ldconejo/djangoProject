@@ -123,6 +123,8 @@ def index(request):
         # If it's been more than a day since the last visit...
         if (datetime.now() - last_visit_time).days > 0:
             # ...reassign the value of the cookie to +1 of what it was before...
+            response.set_cookie('visits', visits+1)
+            # ...and update the last visit cookie, too.
             response.set_cookie('last_visit', datetime.now())
     else:
         # Cookie last_visit doesn't exist, so create it to the current date / time.
