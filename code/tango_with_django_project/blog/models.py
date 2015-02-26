@@ -1,4 +1,5 @@
 from django.db import models
+from django.db import permalink
 
 # Create your models here.
 class Blog(models.Model):
