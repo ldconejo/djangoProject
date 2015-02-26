@@ -54,8 +54,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44475138" vertical-offset="109" max-vertical-offset="480">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.4558011" vertical-offset="105" max-vertical-offset="480">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -819,7 +819,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424983529895</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Fixed typo in blog/index.html">
+      <created>1424983634703</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1424983634703</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -887,7 +893,8 @@
     <MESSAGE value="Finished adding blog code." />
     <MESSAGE value="Blog bug fix." />
     <MESSAGE value="Fixed paths for blog templates in views.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed paths for blog templates in views.py" />
+    <MESSAGE value="Fixed typo in blog/index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo in blog/index.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1334,8 +1341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44475138" vertical-offset="109" max-vertical-offset="480">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.4558011" vertical-offset="105" max-vertical-offset="480">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding />
         </state>
       </provider>
