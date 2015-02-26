@@ -119,10 +119,8 @@
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.038860105" vertical-offset="0" max-vertical-offset="510">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -805,7 +803,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424982469952</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Blog bug fix.">
+      <created>1424982851493</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1424982851493</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -871,7 +875,8 @@
     <MESSAGE value="Enabled visits cookie token." />
     <MESSAGE value="Decreased time between visits counter update in cookies to only 5 seconds." />
     <MESSAGE value="Finished adding blog code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished adding blog code." />
+    <MESSAGE value="Blog bug fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Blog bug fix." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1337,10 +1342,8 @@
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.038860105" vertical-offset="0" max-vertical-offset="510">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
