@@ -10,7 +10,7 @@ def index(request):
     })
 
 def view_post(request, slug):
-    render_to_response('blog/view_post.html',{
+    return render_to_response('blog/view_post.html',{
         'post': get_object_or_404(Blog, slug=slug)
     })
 
