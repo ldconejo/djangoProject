@@ -11,4 +11,9 @@ urlpatterns = patterns('',
         r'^category/(?P<slug>[^\.]+).html',
         views.view_category,
         name='view_blog_category'),
+    url(
+        r'^add_category/$',
+        views.add_category,
+        name='add_category'),
     )
+

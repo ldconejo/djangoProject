@@ -2,6 +2,28 @@
 
 from blog.models import Blog, Category
 from django.shortcuts import render_to_response, get_object_or_404
+from django.template import RequestContext
+from blog.forms import CategoryForm
+
+def add_category(request):
+    # Get the context from the request
+    context = RequestContext(request)
+
+    # Check if the request is HTTP POST
+    if request.method == 'POST':
+        form = CategoryForm(request.POST)
+
+        if form.is_valid():
+            form.save(commit=True)
+            return index(request)
+        else:
+            print form.errors
+    else:
+        # If the request was not a POST, display the form to enter details
+        form = CategoryForm()
+
+    # Render the form, including any error messages
+    return render_to_response('blog/add_category.html', {'form': form}, context)
 
 def index(request):
     return render_to_response('blog/index.html', {
