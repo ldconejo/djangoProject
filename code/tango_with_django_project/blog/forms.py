@@ -13,7 +13,7 @@ class BlogForm(forms.ModelForm):
         model = Blog
         fields = ('title', 'slug', 'body')
 
-class CategoryForm:
+class CategoryForm(forms.ModelForm):
     title = forms.CharField(max_length=100, help_text="Please enter the category name:")
     slug = forms.SlugField(max_length=100, help_text="Please enter the slug name:")
 

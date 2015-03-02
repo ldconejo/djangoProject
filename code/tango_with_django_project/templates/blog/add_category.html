@@ -13,7 +13,7 @@
             {{ hidden }}
         {% endfor %}
 
-        {% for field in farm.visible_fields %}
+        {% for field in form.visible_fields %}
             {{ field.errors }}
             {{ field.helptext }}
             {{ field }}
