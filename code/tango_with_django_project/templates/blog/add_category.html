@@ -8,6 +8,7 @@
     <form id="category_form" method="post" action="/blog/add_category/">
 
         {% csrf_token %}
+        {{ form.as_p }}
 
         {% for hidden in form.hidden_fields %}
             {{ hidden }}
