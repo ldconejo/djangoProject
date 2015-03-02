@@ -1,5 +1,5 @@
 {% extends 'blog/base.html'%}
-{% block title %}Add new blog category{% endblock %}
+{% block title %}Symbionts Blog{% endblock %}
 
 {% block content %}
 
@@ -8,6 +8,10 @@
     <form id="category_form" method="post" action="/blog/add_category/">
 
         {% csrf_token %}
+
+        {% for hidden in form.hidden_fields %}
+            {{ hidden }}
+        {% endfor %}
 
         {% for field in form.visible_fields %}
             {{ field.errors }}
