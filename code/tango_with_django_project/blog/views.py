@@ -3,7 +3,7 @@
 from blog.models import Blog, Category
 from django.shortcuts import render_to_response, get_object_or_404
 from django.template import RequestContext
-from blog.forms import CategoryForm
+from blog.forms import BlogForm, CategoryForm
 
 def add_category(request):
     # Get the context from the request

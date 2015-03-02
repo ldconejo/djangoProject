@@ -15,7 +15,7 @@ class BlogForm(forms.ModelForm):
 
 class CategoryForm:
     title = forms.CharField(max_length=100, help_text="Please enter the category name:")
-    slug = forms.SlugField(max_length=100)
+    slug = forms.SlugField(max_length=100, help_text="Please enter the slug name:")
 
     class Meta:
         model = Category
