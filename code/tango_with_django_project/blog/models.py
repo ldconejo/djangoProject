@@ -7,7 +7,7 @@ class Blog(models.Model):
     slug = models.SlugField(max_length=100, unique=True)
     body = models.TextField()
     posted = models.DateField(db_index=True, auto_now_add=True)
-    category = models.ForeignKey('blog.Category')
+    category = models.ForeignKey(Category)
 
     def __unicode__(self):
         return '%s' % self.title
