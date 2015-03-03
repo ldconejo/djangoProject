@@ -15,5 +15,9 @@ urlpatterns = patterns('',
         r'^add_category/$',
         views.add_category,
         name='add_category'),
+    url(
+        r'^add_entry/$',
+        views.add_entry,
+        name='add_entry'),
     )
 
