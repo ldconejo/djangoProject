@@ -30,8 +30,6 @@ def add_entry(request, category_name_url):
     # Get the context from the request
     context = RequestContext(request)
 
-    category_name = decode_url(category_name_url)
-
     # Check if the request is HTTP POST
     if request.method == 'POST':
         form = BlogForm(request.POST)
@@ -42,7 +40,7 @@ def add_entry(request, category_name_url):
 
             # Retrieve the associated category and verify that it exists
             #try:
-            cat = Category.objects.get(title=category_name)
+            cat = Category.objects.get(title=category_name_url)
             entry.category = cat
             #except:
                 # Category doesn't exist and the user will be asked to create it

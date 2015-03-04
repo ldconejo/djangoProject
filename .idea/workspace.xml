@@ -30,8 +30,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5320285" vertical-offset="376" max-vertical-offset="1410">
-              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.15836298" vertical-offset="361" max-vertical-offset="1380">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
                 <element signature="e#27#65#0" expanded="true" />
               </folding>
@@ -479,12 +479,6 @@
       <option name="number" value="Default" />
       <updated>1421640427374</updated>
     </task>
-    <task id="LOCAL-00035" summary="Fixed typo in blog/index.html">
-      <created>1424983831784</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1424983831784</updated>
-    </task>
     <task id="LOCAL-00036" summary="Fixed path for blog/base.html">
       <created>1424983909501</created>
       <option name="number" value="00036" />
@@ -773,7 +767,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425452589752</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Debugging add_entry functionality.">
+      <created>1425452772294</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1425452772294</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1282,8 +1282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5320285" vertical-offset="376" max-vertical-offset="1410">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.15836298" vertical-offset="361" max-vertical-offset="1380">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="e#27#65#0" expanded="true" />
           </folding>
