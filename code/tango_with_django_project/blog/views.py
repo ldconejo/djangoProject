@@ -43,7 +43,7 @@ def add_entry(request, category_name_url):
             # Retrieve the associated category and verify that it exists
             try:
                 cat = Category.objects.get(name=category_name)
-                page.category = cat
+                entry.category = cat
             except:
                 # Category doesn't exist and the user will be asked to create it
                 return render_to_response('blog/add_category.html', {}, context)
