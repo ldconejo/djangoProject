@@ -3,9 +3,9 @@ from blog.models import Blog, Category
 
 # Model definition for Blog entry form
 class BlogForm(forms.ModelForm):
-    title = forms.CharField(max_length=100)
-    slug = forms.SlugField(max_length=100)
-    body = forms.CharField()
+    title = forms.CharField(max_length=100, help_text="Please enter a title:")
+    slug = forms.SlugField(max_length=100, help_text="Please enter a slug:")
+    body = forms.CharField(help_text="Enter the body of your entry:")
 
     # Inline class to provide additional information on the form
     class Meta:

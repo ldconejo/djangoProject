@@ -1,11 +1,11 @@
 {% extends 'blog/base.html'%}
-{% block title %}Symbtionts Blog{% endblock %}
+{% block title %}{{ category.title }}{% endblock %}
 
 {% block content %}
 
     <h1>Add a new blog entry</h1>
 
-    <form id="entry_form" method="post" action="/blog/category/{{ category_name_url }}/add_entry/">
+    <form id="entry_form" method="post" action="/blog/category/{{ category.title }}/add_entry/">
 
         {% csrf_token %}
 
