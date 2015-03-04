@@ -42,7 +42,7 @@ def add_entry(request, category_name_url):
 
             # Retrieve the associated category and verify that it exists
             try:
-                cat = Category.objects.get(name=category_name)
+                cat = Category.objects.get(title=category_name)
                 entry.category = cat
             except:
                 # Category doesn't exist and the user will be asked to create it
