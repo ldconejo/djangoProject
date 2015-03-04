@@ -59,8 +59,8 @@ def add_entry(request, category_name_url):
         form = BlogForm()
 
     return render_to_response('blog/add_entry.html',
-                              { 'category_name_url':category_name_url,
-                                'category_name':category_name, 'form':form},
+                              { 'category': Category,
+                                'form': form},
                               context)
 
 # This one converts the URL category name to a simple category name
