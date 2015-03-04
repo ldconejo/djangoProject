@@ -41,12 +41,12 @@ def add_entry(request, category_name_url):
             entry = form.save(commit=False)
 
             # Retrieve the associated category and verify that it exists
-            try:
-                cat = Category.objects.get(title=category_name)
-                entry.category = cat
-            except:
+            #try:
+            cat = Category.objects.get(title=category_name)
+            entry.category = cat
+            #except:
                 # Category doesn't exist and the user will be asked to create it
-                return render_to_response('blog/add_category.html', {}, context)
+            #    return render_to_response('blog/add_category.html', {}, context)
 
             # Now that we know the category exists, we can save the entry
             entry.save()
