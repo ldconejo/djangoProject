@@ -58,7 +58,7 @@ def add_entry(request, category_name_url):
     else:
         form = BlogForm()
 
-    return render_to_response('blog/add_page.html',
+    return render_to_response('blog/add_entry.html',
                               { 'category_name_url':category_name_url,
                                 'category_name':category_name, 'form':form},
                               context)
