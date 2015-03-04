@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3314917" vertical-offset="0" max-vertical-offset="540">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -477,12 +477,6 @@
       <option name="number" value="Default" />
       <updated>1421640427374</updated>
     </task>
-    <task id="LOCAL-00020" summary="Fixed typo in base.html">
-      <created>1424072139499</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1424072139499</updated>
-    </task>
     <task id="LOCAL-00021" summary="Experiment">
       <created>1424072955337</created>
       <option name="number" value="00021" />
@@ -771,7 +765,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425449381970</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Debugging add_entry functionality.">
+      <created>1425449505877</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1425449505878</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1256,7 +1256,7 @@
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3314917" vertical-offset="0" max-vertical-offset="540">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding />
         </state>
       </provider>
