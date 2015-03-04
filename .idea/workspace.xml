@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82703782-968c-4008-81b5-c214939deb44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/blog/forms.py" afterPath="$PROJECT_DIR$/code/tango_with_django_project/blog/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/blog/views.py" afterPath="$PROJECT_DIR$/code/tango_with_django_project/blog/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="djangoProject.iws" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.185185" vertical-offset="121" max-vertical-offset="1380">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.519573" vertical-offset="473" max-vertical-offset="1380">
+              <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
               <folding>
                 <element signature="e#27#65#0" expanded="true" />
               </folding>
@@ -39,10 +39,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/rango/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="4545">
+              <caret line="80" column="27" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17826825" vertical-offset="0" max-vertical-offset="589">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -141,8 +153,8 @@
         <option value="$PROJECT_DIR$/code/tango_with_django_project/templates/blog/view_category.html" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/templates/blog/add_entry.html" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/rango/views.py" />
-        <option value="$PROJECT_DIR$/code/tango_with_django_project/blog/views.py" />
         <option value="$PROJECT_DIR$/code/tango_with_django_project/blog/forms.py" />
+        <option value="$PROJECT_DIR$/code/tango_with_django_project/blog/views.py" />
       </list>
     </option>
   </component>
@@ -479,12 +491,6 @@
       <option name="number" value="Default" />
       <updated>1421640427374</updated>
     </task>
-    <task id="LOCAL-00037" summary="Trying fixes to admin interface.">
-      <created>1424984435158</created>
-      <option name="number" value="00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1424984435158</updated>
-    </task>
     <task id="LOCAL-00038" summary="Trying fixes to admin interface.">
       <created>1425008923263</created>
       <option name="number" value="00038" />
@@ -773,7 +779,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425452906317</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Debugging add_entry functionality.">
+      <created>1425453260081</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1425453260081</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1232,32 +1244,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/rango/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46619216" vertical-offset="728" max-vertical-offset="4545">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1270,22 +1272,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/views.py">
+    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.185185" vertical-offset="121" max-vertical-offset="1380">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="41" />
           <folding>
-            <element signature="e#27#65#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/forms.py">
+    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/rango/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17826825" vertical-offset="0" max-vertical-offset="589">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="4545">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="27" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.519573" vertical-offset="473" max-vertical-offset="1380">
+          <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+          <folding>
+            <element signature="e#27#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
