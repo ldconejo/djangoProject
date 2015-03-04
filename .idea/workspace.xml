@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.34974092" vertical-offset="0" max-vertical-offset="420">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -477,12 +477,6 @@
       <option name="number" value="Default" />
       <updated>1421640427374</updated>
     </task>
-    <task id="LOCAL-00022" summary="Experiment">
-      <created>1424073093870</created>
-      <option name="number" value="00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1424073093870</updated>
-    </task>
     <task id="LOCAL-00023" summary="Restored title feature to base.html">
       <created>1424073152226</created>
       <option name="number" value="00023" />
@@ -771,7 +765,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425449550092</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Debugging add_entry functionality.">
+      <created>1425449878788</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1425449878788</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1256,7 +1256,7 @@
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34974092" vertical-offset="0" max-vertical-offset="420">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
       </provider>
