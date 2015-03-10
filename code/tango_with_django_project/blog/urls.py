@@ -4,7 +4,7 @@ from blog import views
 urlpatterns = patterns('',
     url(r'^$', views.index, name='index'),
     url(
-        r'^view/(?P<slug>[^\.]+).html',
+        r'^category/(?P<category_name_url>\w+)/(?P<slug>\w+)',
         views.view_post,
         name='view_blog_post'),
     url(
