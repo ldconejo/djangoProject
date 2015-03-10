@@ -4,4 +4,8 @@
 
 {% block content %}
     {{ post.body }}
+
+    <p>
+        <a href="/blog/category/{{ category.title }}/delete_entry/">Delete entry</a>
+    </p>
 {% endblock %}
