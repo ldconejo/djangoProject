@@ -74,7 +74,7 @@ def index(request):
         'posts': Blog.objects.all()[:5]
     })
 
-def view_post(request, slug):
+def view_post(request, category_name_url, slug):
     return render_to_response('blog/view_post.html',{
         'post': get_object_or_404(Blog, slug=slug)
     })
