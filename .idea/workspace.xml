@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82703782-968c-4008-81b5-c214939deb44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/templates/blog/view_post.html" afterPath="$PROJECT_DIR$/code/tango_with_django_project/templates/blog/view_post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="djangoProject.iws" />
@@ -454,12 +453,6 @@
       <option name="number" value="Default" />
       <updated>1421640427374</updated>
     </task>
-    <task id="LOCAL-00054" summary="Debugging add_category functionality.">
-      <created>1425333571608</created>
-      <option name="number" value="00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1425333571609</updated>
-    </task>
     <task id="LOCAL-00055" summary="Debugging add_category functionality.">
       <created>1425358715588</created>
       <option name="number" value="00055" />
@@ -748,7 +741,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426625387973</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Debugging deleting entries.">
+      <created>1426625469525</created>
+      <option name="number" value="00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1426625469525</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="ToolWindowManager">
