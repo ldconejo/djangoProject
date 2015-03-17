@@ -19,5 +19,9 @@ urlpatterns = patterns('',
         r'^category/(?P<category_name_url>\w+)/add_entry/$',
         views.add_entry,
         name='add_entry'),
+    url(
+        r'^category/(?P<category_name_url>\w+)/delete_entry/$',
+        views.delete_entry,
+        name='delete_entry'),
     )
 
