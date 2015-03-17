@@ -30,7 +30,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.592592" vertical-offset="998" max-vertical-offset="1590">
+            <state vertical-scroll-proportion="-19.148148" vertical-offset="848" max-vertical-offset="1590">
               <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
               <folding>
                 <element signature="e#27#65#0" expanded="true" />
@@ -74,8 +74,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5602716" vertical-offset="0" max-vertical-offset="589">
-              <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.20373514" vertical-offset="0" max-vertical-offset="589">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -454,12 +454,6 @@
       <option name="number" value="Default" />
       <updated>1421640427374</updated>
     </task>
-    <task id="LOCAL-00049" summary="Debugging add_category functionality.">
-      <created>1425330635579</created>
-      <option name="number" value="00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1425330635579</updated>
-    </task>
     <task id="LOCAL-00050" summary="Debugging add_category functionality.">
       <created>1425331347897</created>
       <option name="number" value="00050" />
@@ -748,7 +742,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426624509709</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Debugging deleting entries.">
+      <created>1426624876968</created>
+      <option name="number" value="00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1426624876968</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1215,7 +1215,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.592592" vertical-offset="998" max-vertical-offset="1590">
+        <state vertical-scroll-proportion="-19.148148" vertical-offset="848" max-vertical-offset="1590">
           <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
           <folding>
             <element signature="e#27#65#0" expanded="true" />
@@ -1225,8 +1225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5602716" vertical-offset="0" max-vertical-offset="589">
-          <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.20373514" vertical-offset="0" max-vertical-offset="589">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
