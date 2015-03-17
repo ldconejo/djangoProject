@@ -20,7 +20,7 @@ urlpatterns = patterns('',
         views.add_entry,
         name='add_entry'),
     url(
-        r'^category/(?P<category_name_url>\w+)/delete_entry/(?P<slug>\w+)/$',
+        r'^category/(?P<category_name_url>\w+)/delete_entry/(?P<slug>\w+)',
         views.delete_entry,
         name='delete_entry'),
     )
