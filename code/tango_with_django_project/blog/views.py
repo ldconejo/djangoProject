@@ -63,9 +63,6 @@ def add_entry(request, category_name_url):
 
 # Delete an existing blog entry
 def delete_entry(request, category_name_url, slug):
-    # Get the context from the request
-    context = RequestContext(request)
-
     return render_to_response('blog/delete_entry.html', {
         'category': category_name_url,
         # Gets the object that will be destroyed
