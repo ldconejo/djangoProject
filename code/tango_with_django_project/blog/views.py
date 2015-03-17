@@ -61,6 +61,19 @@ def add_entry(request, category_name_url):
                                 'form': form},
                               context)
 
+# Delete an existing blog entry
+def delete_entry(request, category_name_url, slug):
+    # Get the context from the request
+    context = RequestContext(request)
+
+    return render_to_response('blog/delete_entry.html', {
+        'category': category_name_url,
+        # Gets the object that will be destroyed
+        'post': get_object_or_404(Blog, slug=slug),
+    })
+
+    # Check if the request is HTTP POST
+
 # This one converts the URL category name to a simple category name
 # Note that in its simplest implementation, this simply removes the underscores (_)
 # from the category name
