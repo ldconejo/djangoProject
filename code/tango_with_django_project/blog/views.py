@@ -62,8 +62,8 @@ def add_entry(request, category_name_url):
                               context)
 
 # Delete an existing blog entry
-def delete_entry(request, category_name_url, slug):
-    return render_to_response('blog/view_post.html',{
+def delete_post(request, category_name_url, slug):
+    return render_to_response('blog/delete_post.html',{
         'post': get_object_or_404(Blog, slug=slug),
         'category': category_name_url
     })

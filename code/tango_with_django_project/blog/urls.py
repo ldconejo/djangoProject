@@ -4,9 +4,9 @@ from blog import views
 urlpatterns = patterns('',
     url(r'^$', views.index, name='index'),
     url(
-        r'^category/(?P<category_name_url>\w+)/(?P<slug>\w+)/delete_entry/$',
-        views.delete_entry,
-        name='delete_entry'),
+        r'^category/(?P<category_name_url>\w+)/(?P<slug>\w+)/delete_post/$',
+        views.delete_post,
+        name='delete_post'),
     url(
         r'^category/(?P<category_name_url>\w+)/(?P<slug>\w+)',
         views.view_post,
