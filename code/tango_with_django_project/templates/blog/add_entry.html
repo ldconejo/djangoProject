@@ -5,7 +5,7 @@
 
     <h1>Add a new blog entry</h1>
 
-    <form id="entry_form" method="post" action="/blog/category/{{ category_name_url }}/add_entry/">
+    <form id="entry_form" method="post" action="/blog/category/{{ category }}/add_entry/">
 
         {% csrf_token %}
 
