@@ -75,8 +75,8 @@ def delete_post(request, category_name_url, slug):
     else:
         return render_to_response('blog/delete_post.html',{
             'post': get_object_or_404(Blog, slug=slug),
-            'category': category_name_url
-        })
+            'category': category_name_url},
+            context)
 
     # Check if the request is HTTP POST
 
