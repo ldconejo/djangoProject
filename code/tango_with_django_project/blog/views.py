@@ -68,7 +68,8 @@ def delete_post(request, category_name_url, slug):
     context = RequestContext(request)
     # Check if the request is HTTP POST
     if request.method == 'POST':
-
+        # Delete entry
+        Blog.objects.filter(slug=slug).delete()
 
         # Now that the entry is deleted, display the category instead
         return view_category(request, category_name_url)
