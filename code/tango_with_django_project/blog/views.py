@@ -63,10 +63,17 @@ def add_entry(request, category_name_url):
 
 # Delete an existing blog entry
 def delete_post(request, category_name_url, slug):
-    return render_to_response('blog/delete_post.html',{
-        'post': get_object_or_404(Blog, slug=slug),
-        'category': category_name_url
-    })
+    # Check if the request is HTTP POST
+    if request.method == 'POST':
+
+
+        # Now that the entry is deleted, display the category instead
+        return view_category(request, category_name_url)
+    else:
+        return render_to_response('blog/delete_post.html',{
+            'post': get_object_or_404(Blog, slug=slug),
+            'category': category_name_url
+        })
 
     # Check if the request is HTTP POST
 
