@@ -79,7 +79,9 @@ def delete_post(request, category_name_url, slug):
             'category': category_name_url},
             context)
 
-    # Check if the request is HTTP POST
+# Edit an existing blog entry
+def edit_post(request, category_name_url, slug):
+    pass
 
 # This one converts the URL category name to a simple category name
 # Note that in its simplest implementation, this simply removes the underscores (_)
