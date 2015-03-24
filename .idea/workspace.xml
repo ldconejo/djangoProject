@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82703782-968c-4008-81b5-c214939deb44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/tango_with_django_project/templates/blog/edit_post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/blog/urls.py" afterPath="$PROJECT_DIR$/code/tango_with_django_project/blog/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/tango_with_django_project/templates/blog/view_post.html" afterPath="$PROJECT_DIR$/code/tango_with_django_project/templates/blog/view_post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -44,8 +42,8 @@
       <file leaf-file-name="view_post.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/blog/view_post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34513274" vertical-offset="0" max-vertical-offset="565">
-              <caret line="13" column="86" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.31858408" vertical-offset="0" max-vertical-offset="565">
+              <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -487,12 +485,6 @@
       <option name="number" value="Default" />
       <updated>1421640427374</updated>
     </task>
-    <task id="LOCAL-00068" summary="Debugging add_entry functionality.">
-      <created>1425449381970</created>
-      <option name="number" value="00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1425449381970</updated>
-    </task>
     <task id="LOCAL-00069" summary="Debugging add_entry functionality.">
       <created>1425449505877</created>
       <option name="number" value="00069" />
@@ -781,7 +773,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426657275641</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Debugging editing entries.">
+      <created>1427174603517</created>
+      <option name="number" value="00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1427174603517</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -847,7 +845,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Update login/logout/register functionality" />
     <MESSAGE value="Removed login and register options for logged users." />
     <MESSAGE value="Added base template and modified category.html to use it." />
     <MESSAGE value="Fixed typo in category.html" />
@@ -872,7 +869,8 @@
     <MESSAGE value="Debugging delete entry functionality" />
     <MESSAGE value="Debugging post paths" />
     <MESSAGE value="Debugging deleting entries." />
-    <option name="LAST_COMMIT_MESSAGE" value="Debugging deleting entries." />
+    <MESSAGE value="Debugging editing entries." />
+    <option name="LAST_COMMIT_MESSAGE" value="Debugging editing entries." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1264,8 +1262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/tango_with_django_project/templates/blog/view_post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34513274" vertical-offset="0" max-vertical-offset="565">
-          <caret line="13" column="86" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="86" />
+        <state vertical-scroll-proportion="0.31858408" vertical-offset="0" max-vertical-offset="565">
+          <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
           <folding />
         </state>
       </provider>
