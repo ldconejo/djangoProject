@@ -6,6 +6,11 @@
     {{ post.body }}
 
     <p>
+        <a href="/blog/category/{{ category }}/{{ post.title }}/edit_post/">Edit entry</a>
+    </p>
+
+    <p>
         <a href="/blog/category/{{ category }}/{{ post.title }}/delete_post/">Delete entry</a>
+        <a href="/blog/category/{{ category }}/{{ post.title }}/edit_post/">Edit entry</a>
     </p>
 {% endblock %}

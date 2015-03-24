@@ -8,6 +8,10 @@ urlpatterns = patterns('',
         views.delete_post,
         name='delete_post'),
     url(
+        r'^category/(?P<category_name_url>\w+)/(?P<slug>\w+)/edit_post/$',
+        views.edit_post,
+        name='edit_post'),
+    url(
         r'^category/(?P<slug>\w+)/$',
         views.view_category,
         name='view_blog_category'),
